@@ -12,7 +12,7 @@ https://cmpsc465.000webhostapp.com/
 Use the following link to view a demonstration of the project!
 https://youtu.be/S_doAc4EqS4
 
-Project was done under the guidance of Prof. Kamesh Madduri and The Pennsylvania State University, University Park
+Project was done under the guidance of Prof. Kamesh Madduri and The Pennsylvania State University, University Park.
 
 https://www.psu.edu/
 
