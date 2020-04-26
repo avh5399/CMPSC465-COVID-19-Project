@@ -6,7 +6,9 @@ public class extraCredit {
 
     public static String ExtraCredit(ArrayList<String>s){
         String ans="";
+
         HashSet<Integer>brooklynZipCodes = new HashSet<>();
+        //Different zipcodes which belong to Brooklyn
         brooklynZipCodes.add(11212);
         brooklynZipCodes.add(11213);
         brooklynZipCodes.add(11216);
@@ -44,11 +46,13 @@ public class extraCredit {
         brooklynZipCodes.add(11206);
         brooklynZipCodes.add(11221);
         brooklynZipCodes.add(11237);
+
         ArrayList<Integer>zips = new ArrayList<>();
         for(int i=1;i<s.size();i++){
             String temp1 = s.get(i);
             String data1[] = temp1.split(",");
             int key = Integer.parseInt(data1[1]);
+            //Checking if the zipcode provided is present in Brookyln
             if(brooklynZipCodes.contains(key)) {
                 int value = Integer.parseInt(data1[2]);
                 ans+=key;
