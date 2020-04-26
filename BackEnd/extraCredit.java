@@ -1,7 +1,7 @@
 
 import java.io.*;
 import java.util.*;
-public class rosalind {
+public class extraCredit {
 
 
     public static String ExtraCredit(ArrayList<String>s){
