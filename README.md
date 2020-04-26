@@ -1,5 +1,5 @@
 # CMPSC465-COVID-19-Project
-All credit goes to THE CITY for the data used.
+All credit goes to THE CITY for the data used:
 https://thecity.nyc
 
 Data was taken from the following site:
